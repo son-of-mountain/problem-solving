@@ -1,0 +1,16 @@
+class Solution(object):
+    def kWeakestRows(self, mat, k):
+        # calculate the number of soldier in each row 
+        for i in range(len(mat)):
+            k=0
+            for _ in range(len(mat[0])):
+                l,h=0,len(mat[0])-1
+                while l<h:
+                    mid = (l+h)//2
+                    if mat[i][mid]==1:
+                        k+=(mid-l+1)
+                        l=mid+1     # check the left side for more 1s
+                    else:
+                        h=mid-1
+                
+        
