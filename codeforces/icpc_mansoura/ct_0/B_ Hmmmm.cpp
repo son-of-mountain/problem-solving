@@ -14,7 +14,7 @@ int main(){
         
     std::cin>>x;
     
-    if(x>=a and x<=b)
+    if(x>=a && x<=b)
         s+=x;
     }
     
