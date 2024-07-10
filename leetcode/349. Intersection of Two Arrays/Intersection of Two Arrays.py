@@ -1,6 +1,4 @@
-
-[A[2~
-[A[2~class Solution(object):
+class Solution(object):
     def bs(self,nums,target):
         l,h=0,len(nums)-1
         while l<=h:
@@ -21,7 +19,7 @@
         """
         nums1.sort()
         nums2.sort()
-        # i added these conditions to simplify the search
+        # I added these conditions to simplify the search
         tab=[]
         if len(nums1)<len(nums2):
             for i in range(len(nums1)):
