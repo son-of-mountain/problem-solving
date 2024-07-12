@@ -15,6 +15,9 @@ class Solution(object):
         weak.sort()
 
         return [weak[i][1] for i in range(k)]
-
-
+# three steps :
+# first  : check how many soldiers are in one list using binary search
+# second : append the tuple ( nOfSoldiers , row ) in a new list
+# third  : sort them in an ascending order
+# fourth : return < k
 
