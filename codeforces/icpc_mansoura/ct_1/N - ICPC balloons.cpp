@@ -18,25 +18,27 @@ int main(){
         int ct = 2 ;
         
         // brute force technique
+        int i , j ;
         
-        
-        for(int i = 1; i< n ; i++)
-            for(int j = 0 ; j < n-1 ; j++)
-                {
-                    cout << ct << endl ; 
+        for(i = 1; i< n ; i++){
+            for(j = 0 ; j < i ; j++){
+                
+                    // cout << ct << endl ; 
                     if(s[i]==s[j])
                     {
                         ct++;
                         break ;
                         
                     }
-                
-                    else
-                        ct+=2 ;     
                     
                 
                 }
+            
+            if(j==i)
+                ct+=2 ; 
              
+            
+        }
         cout << ct << endl ; 
         
             }
