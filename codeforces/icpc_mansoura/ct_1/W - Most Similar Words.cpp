@@ -8,41 +8,44 @@ int main() {
     while(t--){
         
         short n,m ;
-        short i,j;
+        short i,j,k;
         cin >> n>> m ; 
-        
-        // --------------- APPROACH ---------------
-        // Input of the all the words 
-        // Calculate the sum of the ASCII code of all characters in each word 
-        // Then calculate the difference of the possible two pairs
-        // Take the smaller difference and print it 
+             
+        // BRUTE FORCE APPROACH
+        // USE a min_difference to define the minimum difference between both strings
+        // Introduce a difference each time we calculate it between two variables
+        // Compare this difference with the min_difference
+        // Take the min between both 
 
+        //Why using an array to store the difference ?
+        // Just compare and take min each time 
+        // Less memory +
+        // More intelligence ++
+        
+        //the subtraction operation itself implicitly converts the characters to their ASCII
+            
         string s[n];
         for(i=0;i<n;i++)
                 cin >> s[i] ; 
             
-        int sum[n];
-        for(i=0;i<n;i++)
-            for(j=0;i<m;j++)
-                sum[i] += (int)s[i][j];
 
-        int diff = abs(sum[0]-sum[1]);
-        for(i=0;i<n-1;i++)
-            for(j=i; j<n;j++){
-                if(diff < abs(sum[i]-sum[j]))
-                    diff = abs(sum[i]-sum[j]);
-                
+        int mindiff = INT_MAX; 
+        for(i=0;i<n-1;i++){
+
+            for(j=i+1; j<n;j++){
+
+                int currdiff = 0 ;
+            
+                for(k=0; k<m;k++)
+                    currdiff += abs( s[i][k] - s[j][k] );
+            
+                mindiff = min( mindiff . currdiff );
             }
-        
-        
-        cout << diff <<endl; 
-        
-        
-        
-                
-        
+
+        }
+        cout << mindiff <<endl; 
     }
     
-    
+    return 0;    
     
 }
