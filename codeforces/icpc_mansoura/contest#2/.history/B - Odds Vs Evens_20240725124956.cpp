@@ -10,10 +10,7 @@ int main(){
     
     int a[n];
     
-    //Approach 
-    // just calculate the sum of ODD indices only
-    // then calculate the sum of EVEN numbers
-    // then compare
+    //A
 
 
     for( i =0 ; i<n ; i++)

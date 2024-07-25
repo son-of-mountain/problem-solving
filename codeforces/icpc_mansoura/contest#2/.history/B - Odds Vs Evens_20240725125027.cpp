@@ -12,8 +12,6 @@ int main(){
     
     //Approach 
     // just calculate the sum of ODD indices only
-    // then calculate the sum of EVEN numbers
-    // then compare
 
 
     for( i =0 ; i<n ; i++)

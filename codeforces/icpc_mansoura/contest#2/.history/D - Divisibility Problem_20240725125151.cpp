@@ -20,11 +20,8 @@ int main(){
     // what is it? 
 
     // first 
-    // if a % b     then we have none to do 
-    // but if b < a     like 125 and 233 we take their substraction
-    // and finally
-    // a formula than lets you first look for the next divisor of a 
-    // and calulate the steps
+    // if a % b 
+
 
 
     while(t--){

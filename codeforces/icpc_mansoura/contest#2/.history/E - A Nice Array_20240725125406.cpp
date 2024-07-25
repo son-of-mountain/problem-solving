@@ -22,8 +22,7 @@ int main(){
 
         // APPROACH 
         // sort the array
-        // suppose that it is already NICE 
-        // once you found otherwise you break and says 'NO'
+        // suppose that it is already 
 
         int a[n];
         for(int i=0 ; i< n ;i++)

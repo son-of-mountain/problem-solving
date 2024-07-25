@@ -18,13 +18,11 @@ int main(){
     while(t--){
         
         int n;
-        cin >> n ;  
+        cin >> n ; 
 
         // APPROACH 
-        // sort the array
-        // suppose that it is already NICE 
-        // once you found otherwise you break and says 'NO'
-
+        // 
+        
         int a[n];
         for(int i=0 ; i< n ;i++)
             cin >> a[i];
