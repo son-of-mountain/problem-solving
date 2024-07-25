@@ -46,10 +46,6 @@ int main(){
     
     //  "abccba" => NO 
     // needs two changes like "abwwba" ... 
-
-
-
-    // for another time they adopted a method that doesnt require all this calculation tragedy !!! j 
     
     
 }
