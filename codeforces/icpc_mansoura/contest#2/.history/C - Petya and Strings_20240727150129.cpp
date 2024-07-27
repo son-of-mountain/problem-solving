@@ -31,8 +31,8 @@ int main(){
         
     }
     
-    if(t>s) cout << 1 ;
-    else if(t == s) cout << 0 ;
+    if(t>s) cout << 0 ;
+    else if(t == s) cout << 1 ;
     else cout << -1 ;
     
     return 0;

@@ -16,7 +16,7 @@ int main(){
     // and print the result 
     // but i think that it to much consuming to do this step 
 
-    // didnt know if we can compare strings
+    // 
 
 
     fastIO();    
@@ -26,14 +26,22 @@ int main(){
     
     int n = (int)t.length() ; 
     for(int i=0 ; i < n ; i++){
-        if(isupper(t[i])) t[i] = tolower(t[i]); 
+        if(isupper(t[i])) t[i] = tolower(t[i]);
         if(isupper(s[i])) s[i] = tolower(s[i]);
         
     }
     
-    if(t>s) cout << 1 ;
-    else if(t == s) cout << 0 ;
+    
+    // now that all caracters are low
+    
+    if(t>s) cout << 0 ;
+    else if(t == s) cout << 1 ;
     else cout << -1 ;
+    
+
+
+
+
     
     return 0;
     
