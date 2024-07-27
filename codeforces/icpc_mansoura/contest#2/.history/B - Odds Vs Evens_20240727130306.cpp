@@ -15,9 +15,6 @@ int main(){
     // then calculate the sum of EVEN numbers
     // then compare
 
-    // think of another method to store values !
-    // why did i chose array while i can just store in a variable !!
-
 
     for( i =0 ; i<n ; i++)
         cin >> a[i];
