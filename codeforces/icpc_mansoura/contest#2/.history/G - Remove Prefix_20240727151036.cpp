@@ -7,7 +7,7 @@ void fastIO(void){
     cout.tie(NULL);
 }
 
-
+// APP
 int main(){
     
     fastIO();    
@@ -18,12 +18,7 @@ int main(){
     while(t--){
         
         int n;
-        cin >> n ;  
-
-        // APPROACH 
-        // sort the array
-        // suppose that it is already NICE 
-        // once you found otherwise you break and says 'NO'
+        cin >> n ; 
         
         int a[n];
         for(int i=0 ; i< n ;i++)
@@ -31,17 +26,22 @@ int main(){
                 
         sort(a , a+n); 
         
-        bool isn = true ; 
+        int start = 0 ;
+        bool isn  = false  ; 
         
-        for(int i=0 ; i< n-1 ;i++)
-            if(a[i]==a[i+1]){
-                cout << "NO"<<endl; 
-                isn=false ;
-                break ; 
-            }
-             
-        if(isn) cout << "YES"<< endl ; 
-        
+        while(!isn){
+            isn  = true ;
+            for(int i=start ; i< n-1 ;i++)
+                if(a[i]==a[i+1]){
+                    isn=false ;
+                    break ; 
+                }
+            // cout << a[i] << endl ; 
+            start++ ; 
+            
+        }
+            
+        cout << start-1 << endl ;         
     }
     
     
