@@ -21,16 +21,10 @@ int main(){
 
     }
 
-    sort(arr , arr+n , greater<int>() ) ;
-
     // print the appearance 
     for(int a=1; a <= 1000 ; a++){
         for(int i =0 ; i < n ; i++){
-            
-            if( frq[arr[i]+shift]== a)
-                cout << arr[i] << ' ';
         
-        }
     }
 
 

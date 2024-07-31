@@ -11,26 +11,13 @@ int main(){
 
     int shift = 1000;
     int frq[2000+5]={} ;
-    int arr[n];
+    int t[n];
 
 
     for(int i =0 ; i < n ; i++){
         cin >> arr[i];
-        
         frq [ arr[i] + shift]++ ; 
 
-    }
-
-    sort(arr , arr+n , greater<int>() ) ;
-
-    // print the appearance 
-    for(int a=1; a <= 1000 ; a++){
-        for(int i =0 ; i < n ; i++){
-            
-            if( frq[arr[i]+shift]== a)
-                cout << arr[i] << ' ';
-        
-        }
     }
 
 

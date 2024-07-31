@@ -21,8 +21,7 @@ int main(){
 
     }
 
-    sort(arr , arr+n , greater<int>() ) ;
-
+    sort(arr , arr+n , greater<int> ) p
     // print the appearance 
     for(int a=1; a <= 1000 ; a++){
         for(int i =0 ; i < n ; i++){

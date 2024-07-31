@@ -20,8 +20,7 @@ int main(){
         frq [ arr[i] + shift]++ ; 
 
     }
-
-    sort(arr , arr+n , greater<int>() ) ;
+    
 
     // print the appearance 
     for(int a=1; a <= 1000 ; a++){
