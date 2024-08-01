@@ -8,7 +8,7 @@ int main(){
     int n ; 
     cin >> n ;
 
-    if(n%2 == 1)
+    if((n-1)%2 == 0)
         cout << "Joker\n";
     else
         cout << "Emad\n";
@@ -16,10 +16,7 @@ int main(){
 
 /*
     5
-    e = 1 
-    j = 3 , l     2 , l    1 , w 
-
-
+    e = 1 2 3 \
 
 */
 
