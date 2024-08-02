@@ -19,6 +19,9 @@ int main(){
     e = 1 
     j = 3 , l     2 , l    1 , w 
 
+    i did n%3 ==1 what does that mean ? 
+    what i wan
+
 
 */
 

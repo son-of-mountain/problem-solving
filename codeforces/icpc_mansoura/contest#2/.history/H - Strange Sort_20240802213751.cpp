@@ -18,8 +18,6 @@ int main(){
         frq[ t[i]+shift ]++ ; // we store 1001=1  1002    1002=2    999=1     1003    1003=2 
     }
 
-    sort(t, t+n , greater<int>());
-
     for(int a=1 ; a<=1000 ;a++){
         for(int i=0 ; i<n ;i++){
 
@@ -31,6 +29,11 @@ int main(){
         }
         
     }
+
+
+
+
+
 
 
 
