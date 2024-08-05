@@ -1,0 +1,3 @@
+struct angles{
+    int i
+}
