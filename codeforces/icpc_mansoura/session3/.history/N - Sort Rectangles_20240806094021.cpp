@@ -28,18 +28,15 @@ int main(){
         area[i] = abs(a[i].a1.x-a[i].a2.x) * abs(a[i].a2.x - a[i].a3.x) ;
 
 
+    // sort(area, area+n);
 
-    int mat[n][2];
+    int arrea[n];
 
-    for(int i=0; i<n; i++){
-        mat[i][1]=area[i];
-        mat[i][0]=i;
+    for(int i=n; i>=1; i--){
+        cout << i+1 << " " << area[i] << "\n";
     }
-    sort(area, area+n);
-    
-    for(int i=0; i<n; i++){
-        mat[i][1]=area[i];
-    }
+
+    return 0;
 
 
 }

@@ -22,24 +22,21 @@ int main(){
     
     // sorting the rectangle based on their areas in ascending order
     int area[n];
+
     // calculating the area of each rectangle
 
-    for(int i=0; i<n; i++)
-        area[i] = abs(a[i].a1.x-a[i].a2.x) * abs(a[i].a2.x - a[i].a3.x) ;
-
-
-
-    int mat[n][2];
-
     for(int i=0; i<n; i++){
-        mat[i][1]=area[i];
-        mat[i][0]=i;
-    }
+        
+        area[i] = sqrt(a[i].a1.x-a[i].a2.x) * sqrt(a[i].a2.x - a[i].a3.x) ;
+        }
+
     sort(area, area+n);
-    
-    for(int i=0; i<n; i++){
-        mat[i][1]=area[i];
+
+    for(int i=n; i>=1; i--){
+        cout << i+1 << " " << area[i] << "\n";
     }
+
+    return 0;
 
 
 }

@@ -33,7 +33,6 @@ int main(){
 
     for(int i=0; i<n; i++){
         mat[i][1]=area[i];
-        mat[i][0]=i;
     }
     sort(area, area+n);
     
