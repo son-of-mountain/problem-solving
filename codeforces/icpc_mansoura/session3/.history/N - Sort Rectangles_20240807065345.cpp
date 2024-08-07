@@ -42,8 +42,7 @@ int main(){
 
     for(int i=0; i<n; i++){
         cout << a[i].id << " ";  // this will print the sorted order of the rectangles based on area
-        cout << a[i].area() << '\n';  
-
+    
     }
 
 

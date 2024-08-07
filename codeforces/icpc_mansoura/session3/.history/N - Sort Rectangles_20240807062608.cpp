@@ -17,7 +17,7 @@ struct rec{
 bool comp(rec& a , rec& b){
     ll aarea =a.area(); 
     ll barea =b.area(); 
-    return aarea > barea ; // this will sort in descending order
+    return aarea > barea ; 
 }
 
 int main(){
@@ -38,14 +38,8 @@ int main(){
     // this will allow us to store the index
     // so even after storing it doesnt change
 
-    sort( a , a+ n , comp); 
 
-    for(int i=0; i<n; i++){
-        cout << a[i].id << " ";  // this will print the sorted order of the rectangles based on area
-        cout << a[i].area() << '\n';  
-
-    }
-
+    
 
 
 
