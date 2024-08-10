@@ -7,11 +7,7 @@ using namespace std ;
 
 int main(){
 
-    // APPROACH 
-    // we will generate all possible pairs of (x,y) such that 0<=x,y<=k and their sum equals s
-    // and then check for each pair if z=s-x-y exists in the range [0,k]
-    // complexity will be O(k^2)
-    
+    // 
         
     int k , s ;
     cin >> k >> s ;
