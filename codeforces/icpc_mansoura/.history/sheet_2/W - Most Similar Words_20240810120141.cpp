@@ -39,7 +39,7 @@ int main() {
                 for(k=0; k<m;k++)
                     currdiff += abs( s[i][k] - s[j][k] );
             
-                mindiff = min( mindiff , currdiff );
+                mindiff = min( mindiff  currdiff );
             }
 
         }
