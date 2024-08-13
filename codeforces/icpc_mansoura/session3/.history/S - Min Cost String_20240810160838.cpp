@@ -70,7 +70,7 @@ int main(){
     long long totalCost = 0 ;
     for(int i=0; i< n-1; i++) totalCost += abs( cost[s[i]-'a'] - cost[s[i+1]-'a'] );
 
-    std::cout << totalCost << '\n' << s ; 
+    std::cout << c << '\n' << s ; 
     return 0 ;
 
 }

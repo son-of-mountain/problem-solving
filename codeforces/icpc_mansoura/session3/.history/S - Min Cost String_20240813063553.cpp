@@ -54,7 +54,7 @@ int main(){
 
 
                 // now checks the cost and lexicographic comparison
-                if(currCost < mincost || (currCost == mincost && c <minChar )) {
+                if(currCost <= mincost && c <minChar ) {
                     mincost = currCost ;
                     minChar = c ;
                 }
