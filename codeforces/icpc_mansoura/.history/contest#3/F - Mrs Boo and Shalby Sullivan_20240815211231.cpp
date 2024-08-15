@@ -18,7 +18,7 @@ int main(){
             break ;
         }
     }
-    if(!nogreatthan4)
+    if( nogreatthan4)
         cout << s ; 
     
     else{
@@ -26,26 +26,21 @@ int main(){
         for(int i=0; i<n; i++)
             if( (s[i]-'0')>4 ){
                 int tmp = s[i]-'0';
-                cout << tmp << endl ; 
-                s[i] = (char)(9-tmp);
-                cout << s[i] << endl ; 
-                
+                s[i] = (char)(abs(9-tmp));
             }
 
-        // 0s handling
+        // and then look for 0s
         for (int i = 0; i < n; i++)
         {
-            // if we find a non-zero digit
-            // or you found a 0 digit but there is something before it 
-            if((s[i]!='0' && i!= n) || (s[i]=='0'&& newstr!="") ){
+            // if we find a non-zero digit, append it to newstr
+            if(s[i]!='0' && i!= n-1 )
                 newstr += s[i]; 
+            if(newstr=="")
+                newstr = "0";
         }
-        // if you went through all the digits and found all elements are 0 then this is 0 
-        if(newstr=="")
-            newstr = "0";
         
         cout << newstr ;
     }
 
-    return 0 ;
-}}
+
+}
