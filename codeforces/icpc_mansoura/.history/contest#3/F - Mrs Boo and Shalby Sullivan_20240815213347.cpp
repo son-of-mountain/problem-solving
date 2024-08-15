@@ -3,10 +3,9 @@ using namespace std;
 #define sonic ios_base::sync_with_stdio(false) ; cin.tie(NULL) ; cout.tie(NULL);
 
 /*
-    I SHOULD GET A HINT ABOUT 
-    STRING HANDLING
-    JUST A HINT 
-    USING GPT
+
+
+
 
 */
 
