@@ -10,10 +10,8 @@ int main(){
     cin >> s >> t;
     
     int n = s.length(), m = t.length() ;
-
-    cout << n << " " << m << '\n' ;
     
-    cout << s << " " << t ;
+
     return 0 ;
 
 }

@@ -11,9 +11,9 @@ int main(){
     
     int n = s.length(), m = t.length() ;
 
-    cout << n << " " << m << '\n' ;
+    cout << n << " " << m << " " ;
     
-    cout << s << " " << t ;
+
     return 0 ;
 
 }

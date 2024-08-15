@@ -11,9 +11,10 @@ int main(){
     
     int n = s.length(), m = t.length() ;
 
-    cout << n << " " << m << '\n' ;
+    cout << n << " " << m << " " ;
     
-    cout << s << " " << t ;
+    for(int i = 0 ; i < n ; i++){
+
     return 0 ;
 
 }

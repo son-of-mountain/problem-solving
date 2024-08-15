@@ -16,4 +16,4 @@ int main(){
     cout << s << " " << t ;
     return 0 ;
 
-}
+}   
