@@ -65,6 +65,7 @@
     "complex": "cpp",
     "numeric": "cpp",
     "ratio": "cpp",
-    "cstdlib": "cpp"
+    "cstdlib": "cpp",
+    "iostream": "cpp"
   }
 }
