@@ -3,13 +3,7 @@ using namespace std;
 #define sonic ios_base::sync_with_stdio(false) ; cin.tie(NULL) ; cout.tie(NULL);
 
 /*
-    APPROACH 
-
-    Take the first element and try not to make it 0
-    INSTEAD make of it the smallest value possible
-
-    Then go for the remaining elements
-    and perform the basic transformation
+    
 
 */
 

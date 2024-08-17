@@ -5,11 +5,7 @@ using namespace std;
 /*
     APPROACH 
 
-    Take the first element and try not to make it 0
-    INSTEAD make of it the smallest value possible
-
-    Then go for the remaining elements
-    and perform the basic transformation
+    Take the first element 
 
 */
 
