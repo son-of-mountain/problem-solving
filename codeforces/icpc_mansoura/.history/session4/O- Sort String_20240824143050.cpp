@@ -22,7 +22,8 @@ using namespace std;
     1- Frequency array : 8:58
      Challenge : 26:10
     2- Prefix Sum  : 35:32
-    2- Prefix Sum Problem : 50:11
+    2- Prefix Sum Problem : 35:32
+
     3- Partial Sum :  
     4- 2D Prefix Sum: 
 */
