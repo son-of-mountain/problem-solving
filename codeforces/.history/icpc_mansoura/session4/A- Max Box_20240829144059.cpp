@@ -7,7 +7,7 @@ int main(){
     
     sonic ;
 
-    long long pre[100001]={};
+    int pre[100001]={};
     int arr[100001]={};
     int n,k ; cin >> n >> k;
 
@@ -20,13 +20,14 @@ int main(){
         pre[i] = arr[i] ;
         for(int j=0; j<k ; j++)
             pre[i] += arr[i+j];
-        
+        }
     }
 
-    long long maxsub = 0;
-    maxsub = *max_element(pre, pre+n-k);
 
-    cout << maxsub ;
-    
+
+
+
+
+
     return 0 ;
 }

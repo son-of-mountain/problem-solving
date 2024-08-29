@@ -23,10 +23,13 @@ int main(){
         
     }
 
-    long long maxsub = 0;
-    maxsub = *max_element(pre, pre+n-k);
+    long long max
 
-    cout << maxsub ;
-    
+
+
+
+
+
+
     return 0 ;
 }
