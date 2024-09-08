@@ -9,25 +9,7 @@ int main(){
     
     sonic ;
 
-    long long pre[100001]={};
-    int arr[100001]={}; 
-    int n,k ; cin >> n >> k;
 
-    for(int i=0; i<n ; i++)
-        cin >> arr[i] ; 
-
-    // calculate the elements of pre using the range and loop determined
-    // and then store them in the pre array
-
-    for(int i=0; i< n-k ; i++ ){
-        pre[i] = arr[i] ;
-        for(int j=1; j<k ; j++)
-            pre[i] += arr[i+j];
-        
-    }
-
-    long long maxsub = 0;
-    maxsub = *max_element(pre, pre+n-k);
 
     cout << maxsub ;
     

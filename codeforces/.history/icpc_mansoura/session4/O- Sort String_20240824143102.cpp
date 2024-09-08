@@ -20,11 +20,9 @@ using namespace std;
 
 
     1- Frequency array : 8:58
-     Frequency array Challenge : 26:10
+     Challenge : 26:10
     2- Prefix Sum  : 35:32
     2- Prefix Sum Problem : 50:11
-    Break : 52:00 
-    2- Prefix Sum Solution : 50:11
     3- Partial Sum :  
     4- 2D Prefix Sum: 
 */

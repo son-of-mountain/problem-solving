@@ -17,7 +17,6 @@ int main(){
         cin >> arr[i] ; 
 
     // calculate the elements of pre using the range and loop determined
-    // and then store them in the pre array
 
     for(int i=0; i< n-k ; i++ ){
         pre[i] = arr[i] ;
