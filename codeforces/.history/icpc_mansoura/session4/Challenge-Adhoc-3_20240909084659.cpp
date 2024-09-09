@@ -18,26 +18,12 @@ int main(){
         cin >> arr[i] ; 
 
 /*
+*/
     while(q--){
         cin >> v >> l >> r; 
         for(int i=l ; i <= r ; i++)
             arr[i] += v ;
         
-        for(int i=1 ; i<=n ; i++)
-            cout << arr[i] << " ";
-        cout << "\n";
-    }
-
-*/
-    // another method using the partial sum 
-    while(q--){
-        cin >> v >> l >> r;
-        int update[n]={};
-        update[l] += v; 
-        update[r+1] -= v;
-        for(int i=1 ; i<= n ; i++) update[i] += update[i-1];
-        for(int i=1 ; i<=n ; i++) arr[i] += update[i-1]; 
-
         for(int i=1 ; i<=n ; i++)
             cout << arr[i] << " ";
         cout << "\n";
