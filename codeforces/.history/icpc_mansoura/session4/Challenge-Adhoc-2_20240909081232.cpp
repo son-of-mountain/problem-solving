@@ -12,20 +12,15 @@ int main(){
      
     int v,n,q ; cin >> n >> q;
 
-    int k ; 
-    int arr[n]={};
+    int arr[n];
     for(int i=1 ; i <= n ; i++)
         cin >> arr[i] ; 
 
 
     while(q--){
-        cin >> v >> k; 
-        for(int i=k ; i <= n ; i++){
-            arr[i] += v ;
-        }
-        for(int i=1 ; i<=n ; i++)
-            cout << arr[i] << " ";
-        cout << "\n";
+        cin >> v ; 
+        for(int i=1 ; i <= n ; i++)
+            cout << arr[i]+ v<< " "; 
     }
 
 
