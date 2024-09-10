@@ -35,8 +35,8 @@ int main(){
         int update[n]={};
         update[l] += v; 
         update[r+1] -= v;
-        for(int i=1 ; i<= n ; i++) update[i] += update[i-1]; // prefix sum
-        for(int i=1 ; i<=n ; i++) arr[i] += update[i]; // store the prefix sum to the new array
+        for(int i=1 ; i<= n ; i++) update[i] += update[i-1]; // 
+        for(int i=1 ; i<=n ; i++) arr[i] += update[i]; 
 
         for(int i=1 ; i<=n ; i++)
             cout << arr[i] << " ";
