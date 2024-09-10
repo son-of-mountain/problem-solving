@@ -14,7 +14,8 @@ int main(){
     sonic ;
 
 
-
+    
+    cout << ans ; 
 
     
     return 0 ;
