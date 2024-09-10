@@ -1,0 +1,35 @@
+#include<bits/stdc++.h>
+using namespace std;
+#define sonic ios_base::sync_with_stdio(false) ; cin.tie(NULL) ; cout.tie(NULL);
+
+// stopped at 1:04:37
+
+/*
+    approach : 
+
+*/
+
+int main(){
+    
+    sonic ;
+
+    int n, k ; cin >> n >> k ;
+    long long pre[10001]={};
+
+
+    int arr[n] ; 
+    for(int i = 0 ; i < n ; ++i) 
+        cin >> arr[i] ;
+
+    for(int i=1 ; i<= n ; ++i)
+        pre[i] = pre[i-1]+ arr[i];
+
+    long long ans = 0;
+    for(int l=1,r=k ; r<=n ; ++l , ++r)
+        ans = max(ans , pre[r]-pre[l-1]);
+    
+    cout << ans ; 
+
+    
+    return 0 ;
+}
