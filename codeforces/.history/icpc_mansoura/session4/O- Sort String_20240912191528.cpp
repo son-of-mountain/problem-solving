@@ -28,8 +28,7 @@ using namespace std;
     Types of Prefix  : 01:07:50
     Break 2 : 1:17:35
     Some Challenges Before Partial Sum: 1:27:40
-    3- Partial Sum :  1:56:51
-    3- Partial Sum Problem :  2:02:19
+    3- Partial Sum :  1:
     4- 2D Prefix Sum: 
 */
 
