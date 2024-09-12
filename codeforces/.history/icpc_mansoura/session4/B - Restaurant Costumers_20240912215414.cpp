@@ -8,12 +8,12 @@ using namespace std;
     approach : 
 
 */
+int updates[100001]={};
 
 int main(){
     
     sonic ;
     int n ; cin >> n ; 
-    long long updates[100001]={};
     const int N = 10001;
 
     while(n--){
@@ -21,13 +21,15 @@ int main(){
 
         updates[l]++;
         updates[r+1]--;
-    }
 
+
+
+    }
     for(int i=1 ; i <= N ; i++){
         updates[i] += updates[i-1];
     }
 
-    long long ans = 0 ; 
+    int ans = 0 ; 
     for(int i=1 ; i <= N ; i++){
         ans = max(ans , updates[i]);
     }

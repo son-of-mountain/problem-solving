@@ -8,12 +8,12 @@ using namespace std;
     approach : 
 
 */
+int updates[100001]={};
 
 int main(){
     
     sonic ;
     int n ; cin >> n ; 
-    long long updates[100001]={};
     const int N = 10001;
 
     while(n--){

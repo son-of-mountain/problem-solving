@@ -8,7 +8,7 @@ using namespace std;
     approach : 
         STOP FORGETTING THE PREINCREMENT THING 
     goal : 
-        look for the max number result of a range given
+        look for the max number result 
 */
 
 int main(){
