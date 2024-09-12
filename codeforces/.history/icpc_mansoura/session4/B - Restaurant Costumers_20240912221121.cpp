@@ -4,8 +4,7 @@ using namespace std;
 
 /*
     why we use prefix sum specifically in this example : 
-        its an easy way to apply one value to all elements in the [l,r] range
-        in O(n)
+        its an easy way to apply one value to all elements in the [l,r]
 
 
     Partial Sum approach in this example : 
@@ -21,7 +20,7 @@ int main(){
     sonic ;
     int n ; cin >> n ; 
     long long updates[100001]={};
-    const int N = 100001;
+    const int N = 10001;
 
     while(n--){
         int l,r ; cin >> l >> r; 
@@ -30,12 +29,12 @@ int main(){
         updates[r+1]--;
     }
 
-    for(int i=1 ; i <= N ; ++i){
+    for(int i=1 ; i <= N ; i++){
         updates[i] += updates[i-1];
     }
 
     long long ans = 0 ; 
-    for(int i=1 ; i <= N ; ++i){
+    for(int i=1 ; i <= N ; i++){
         ans = max(ans , updates[i]);
     }
 

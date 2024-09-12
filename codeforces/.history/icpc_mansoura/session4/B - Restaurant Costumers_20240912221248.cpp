@@ -35,7 +35,7 @@ int main(){
     }
 
     long long ans = 0 ; 
-    for(int i=1 ; i <= N ; ++i){
+    for(int i=1 ; i <= N ; i++){
         ans = max(ans , updates[i]);
     }
 
