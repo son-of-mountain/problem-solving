@@ -25,37 +25,7 @@ int main(){
     sonic ;
     int n ; cin >> n ; 
     long long updates[100001]={};
-    const int N = 100001;
-
-    int l,r ; 
-
-
-    // we suppose that the costumer spends [2,5] in the restaurant
-    // so we register that he got in
-    while(n--){
-        cin >> l >> r ;
-        updates[l]++;
-        updates[r+1]--;
-    }
-
-    // here we did a prefix sum 
-    // it help us store the number of costumers in each hour
-    for(int i=1; i<=N ; i++){
-        updates[i] += updates[i-1];
-    }
-
-    // then we take the max number among them
-    long long ans = 0 ;
-    for(int i=1; i<=N ; i++){
-        ans = max(ans , updates[i]);
-    }
-
-    cout << ans ;
-
-    return 0 ;
-
-
-    
+    const int N = 100001
 
 
 

@@ -13,11 +13,8 @@ using namespace std;
         thats why we do : -val in [r+1]
         to get all values from [l,r] the same
 
-    approach: 
-        we want to know the number of costumers in all time
-        so when a costumer gets it HE IS REGISTERED 
-        and he well be taken in consideration in the ANS    
 
+    
 */
 
 int main(){
@@ -27,37 +24,23 @@ int main(){
     long long updates[100001]={};
     const int N = 100001;
 
-    int l,r ; 
-
-
-    // we suppose that the costumer spends [2,5] in the restaurant
-    // so we register that he got in
     while(n--){
-        cin >> l >> r ;
+        int l,r ; cin >> l >> r; 
+
         updates[l]++;
         updates[r+1]--;
     }
 
-    // here we did a prefix sum 
-    // it help us store the number of costumers in each hour
-    for(int i=1; i<=N ; i++){
+    for(int i=1 ; i <= N ; ++i){
         updates[i] += updates[i-1];
     }
 
-    // then we take the max number among them
-    long long ans = 0 ;
-    for(int i=1; i<=N ; i++){
+    long long ans = 0 ; 
+    for(int i=1 ; i <= N ; ++i){
         ans = max(ans , updates[i]);
     }
 
     cout << ans ;
-
-    return 0 ;
-
-
     
-
-
-
-
+    return 0 ;
 }

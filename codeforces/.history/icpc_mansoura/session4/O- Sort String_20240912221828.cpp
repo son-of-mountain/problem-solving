@@ -30,7 +30,7 @@ using namespace std;
     Some Challenges Introducing Partial Sum: 1:27:40
     3- Partial Sum :  1:56:51
     3- Partial Sum Problem :  2:02:19
-    Partial Sum Challenge 2d : 
+    Partial Sum Challenge : 
     4- 2D Prefix Sum: 
 */
 

@@ -44,15 +44,10 @@ int main(){
         updates[i] += updates[i-1];
     }
 
-    // then we take the max number among them
     long long ans = 0 ;
     for(int i=1; i<=N ; i++){
         ans = max(ans , updates[i]);
     }
-
-    cout << ans ;
-
-    return 0 ;
 
 
     

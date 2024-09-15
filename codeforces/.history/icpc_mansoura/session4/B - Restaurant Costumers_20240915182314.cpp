@@ -50,10 +50,6 @@ int main(){
         ans = max(ans , updates[i]);
     }
 
-    cout << ans ;
-
-    return 0 ;
-
 
     
 

@@ -38,21 +38,9 @@ int main(){
         updates[r+1]--;
     }
 
-    // here we did a prefix sum 
-    // it help us store the number of costumers in each hour
     for(int i=1; i<=N ; i++){
-        updates[i] += updates[i-1];
+        updates[i] += update
     }
-
-    // then we take the max number among them
-    long long ans = 0 ;
-    for(int i=1; i<=N ; i++){
-        ans = max(ans , updates[i]);
-    }
-
-    cout << ans ;
-
-    return 0 ;
 
 
     
