@@ -2,7 +2,7 @@
 using namespace std;
 #define sonic ios_base::sync_with_stdio(false) ; cin.tie(NULL) ; cout.tie(NULL);
 
-// stopped at 1:04:37
+// stopped at 2:14:36
 
 
 int main(){
@@ -10,25 +10,14 @@ int main(){
     sonic ;
 
      
-    int v,n,q ; cin >> n >> q;
+    int v,n,m ; cin >> n >> m;
 
     int l,r; 
-    int arr[n]={};
+    int arr[n][m]={};
     for(int i=1 ; i <= n ; i++)
-        cin >> arr[i] ; 
+        for(int j=1 ; i<= m ; i++)
+            cin >> arr[i][j] ; 
 
-/*
-    while(q--){
-        cin >> v >> l >> r; 
-        for(int i=l ; i <= r ; i++)
-            arr[i] += v ;
-        
-        for(int i=1 ; i<=n ; i++)
-            cout << arr[i] << " ";
-        cout << "\n";
-    }
-
-*/
     // another method using the partial sum 
     while(q--){
         cin >> v >> l >> r;
@@ -43,6 +32,7 @@ int main(){
         cout << "\n";
     }
 
+    
 
 
     return 0 ;

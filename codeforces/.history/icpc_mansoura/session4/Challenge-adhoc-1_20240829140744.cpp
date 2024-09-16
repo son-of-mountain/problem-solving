@@ -18,6 +18,10 @@ int main(){
     for(int i=1; i<=n; i++){
         pre[i] = pre[i-1]+arr[i] ;
     }
+
+    for(int i=0; i<n; i++){
+        cout << pre[i] ;
+    }
     
     int q ; cin >> q ;
     while(q--){

@@ -19,6 +19,7 @@ int main(){
         pre[i] = pre[i-1]+arr[i] ;
     }
     
+    
     int q ; cin >> q ;
     while(q--){
         int l,r ; cin >> l >> r;

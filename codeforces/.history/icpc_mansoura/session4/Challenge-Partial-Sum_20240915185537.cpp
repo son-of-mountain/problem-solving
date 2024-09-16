@@ -10,25 +10,13 @@ int main(){
     sonic ;
 
      
-    int v,n,q ; cin >> n >> q;
+    int v,n, ; cin >> n >> ;
 
     int l,r; 
     int arr[n]={};
     for(int i=1 ; i <= n ; i++)
         cin >> arr[i] ; 
 
-/*
-    while(q--){
-        cin >> v >> l >> r; 
-        for(int i=l ; i <= r ; i++)
-            arr[i] += v ;
-        
-        for(int i=1 ; i<=n ; i++)
-            cout << arr[i] << " ";
-        cout << "\n";
-    }
-
-*/
     // another method using the partial sum 
     while(q--){
         cin >> v >> l >> r;
@@ -43,6 +31,7 @@ int main(){
         cout << "\n";
     }
 
+    
 
 
     return 0 ;
