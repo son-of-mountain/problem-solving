@@ -22,15 +22,17 @@ using namespace std;
     1- Frequency array : 8:58
      Frequency array Challenge : 26:10
     2- Prefix Sum  : 35:32
-    2- Prefix Sum Problem : 50:11
+    2- Codeforces - Prefix Sum Problem : 50:11
     Break : 52:00 
     2- Prefix Sum Solution : 01:02:00
     Types of Prefix  : 01:07:50
     Break 2 : 1:17:35
     Some Challenges Introducing Partial Sum: 1:27:40
     3- Partial Sum :  1:56:51
-    3- Partial Sum Problem :  2:02:19
-    Partial Sum Extra Challenge 2d : 
+    3- Codeforces - Partial Sum Problem :  2:02:19
+    Partial Sum Extra Challenge 2d : 2:12:53
+    Recap 2D prefix sum : 2:29:40
+    Codeforces - 2d Prefix sum problem : 2:30:14
     4- 2D Prefix Sum: 
 */
 
