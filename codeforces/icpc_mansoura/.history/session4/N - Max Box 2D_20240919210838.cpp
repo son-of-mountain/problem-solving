@@ -38,7 +38,7 @@ int main(){
 	// after the pre is calculated in the whole matrix
 	// now its time for chosing the max
 	int u,d,l,r;
-	int ans = 0;
+	long long ans = 0;
 	for(u=1,d=x ; d<= n ; ++u , ++d)
 		for(l=1,r=y ; r<= m ; ++l , ++r)
 			ans = max(ans, pre[d][r]-pre[d][l-1] - pre[u-1][r] + pre[u-1][l-1] );
