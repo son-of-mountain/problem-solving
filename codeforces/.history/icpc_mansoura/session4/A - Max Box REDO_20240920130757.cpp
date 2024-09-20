@@ -29,7 +29,7 @@ int main(){
         ans = max(ans,pre[r]-pre[l-1]);
     }
 
-    cout << ans ;       
+    cout << ans ;   
 
     return 0 ;
 }

@@ -9,10 +9,7 @@ using namespace std;
 		- input the array
 		- calculate the prefix row sum, fixing the rows
 		- calculate the prefix column sum, fixing the columns
-		- move the box based on the Down and Right 
-		- then calculate the Left and Up
-
-
+		- move the box based on the 
 */
 
 int main(){

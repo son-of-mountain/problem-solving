@@ -12,7 +12,9 @@ using namespace std;
 		- move the box based on the Down and Right 
 		- then calculate the Left and Up
 
-
+		consider the following box: of (2,3)
+		L   .   
+		B   .   D
 */
 
 int main(){

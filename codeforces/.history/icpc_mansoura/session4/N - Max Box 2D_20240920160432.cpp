@@ -6,13 +6,9 @@ using namespace std;
 
 /*
     approach : 
-		- input the array
-		- calculate the prefix row sum, fixing the rows
-		- calculate the prefix column sum, fixing the columns
-		- move the box based on the Down and Right 
-		- then calculate the Left and Up
-
-
+        STOP FORGETTING THE PREINCREMENT THING 
+    goal : 
+        look for the max number result of a range given
 */
 
 int main(){
@@ -42,8 +38,8 @@ int main(){
 	// after the arr is calculated in the whole matrix
 	// now its time for chosing the max
 	
-	// seems like if you nest the up and left value inside the array, this will cause a problem 
-
+	// note
+	
 	// pay attention for the negative value 
 
 	int u,d,l,r;

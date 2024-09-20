@@ -30,6 +30,6 @@ int main(){
     }
 
     cout << ans ;       
-
+f
     return 0 ;
 }

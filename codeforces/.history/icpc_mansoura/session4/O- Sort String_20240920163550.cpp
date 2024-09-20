@@ -33,7 +33,7 @@ using namespace std;
     Partial Sum Extra Challenge 2d : 2:12:53
     Recap 2D prefix sum : 2:29:40
     Codeforces - 2d Prefix sum problem : 2:30:14
-    4- 2D Prefix Sum: 2:50:16
+    4- 2D Prefix Sum: 2:
 */
 
 int main(){

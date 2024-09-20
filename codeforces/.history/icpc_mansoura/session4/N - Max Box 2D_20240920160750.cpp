@@ -11,8 +11,6 @@ using namespace std;
 		- calculate the prefix column sum, fixing the columns
 		- move the box based on the Down and Right 
 		- then calculate the Left and Up
-
-
 */
 
 int main(){
