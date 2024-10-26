@@ -205,6 +205,39 @@ build L.exe: CXX_EXECUTABLE_LINKER__L_Debug CMakeFiles/L.dir/L_-_Colourblindness
   TARGET_IMPLIB = libL.dll.a
   TARGET_PDB = L.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Q
+
+
+#############################################
+# Order-only phony target for Q
+
+build cmake_object_order_depends_target_Q: phony || .
+
+build CMakeFiles/Q.dir/Q_-_Caps_Lock.cpp.obj: CXX_COMPILER__Q_unscanned_Debug C$:/Users/asuss/Desktop/problem-solving/leetcode/AWS-Prep/Q$ -$ Caps$ Lock.cpp || cmake_object_order_depends_target_Q
+  DEP_FILE = CMakeFiles\Q.dir\Q_-_Caps_Lock.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Q.dir
+  OBJECT_FILE_DIR = CMakeFiles\Q.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Q
+
+
+#############################################
+# Link the executable Q.exe
+
+build Q.exe: CXX_EXECUTABLE_LINKER__Q_Debug CMakeFiles/Q.dir/Q_-_Caps_Lock.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Q.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Q.exe
+  TARGET_IMPLIB = libQ.dll.a
+  TARGET_PDB = Q.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -241,6 +274,8 @@ build E: phony E.exe
 
 build L: phony L.exe
 
+build Q: phony Q.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -249,7 +284,7 @@ build L: phony L.exe
 #############################################
 # Folder: C:/Users/asuss/Desktop/problem-solving/leetcode/AWS-Prep/cmake-build-debug
 
-build all: phony B.exe E.exe Day1_minmax.exe Day1_plusminux.exe L.exe
+build all: phony B.exe E.exe Day1_minmax.exe Day1_plusminux.exe L.exe Q.exe
 
 # =============================================================================
 # Built-in targets

@@ -3,5 +3,6 @@ C:/Users/asuss/Desktop/problem-solving/leetcode/AWS-Prep/cmake-build-debug/CMake
 C:/Users/asuss/Desktop/problem-solving/leetcode/AWS-Prep/cmake-build-debug/CMakeFiles/Day1_minmax.dir
 C:/Users/asuss/Desktop/problem-solving/leetcode/AWS-Prep/cmake-build-debug/CMakeFiles/Day1_plusminux.dir
 C:/Users/asuss/Desktop/problem-solving/leetcode/AWS-Prep/cmake-build-debug/CMakeFiles/L.dir
+C:/Users/asuss/Desktop/problem-solving/leetcode/AWS-Prep/cmake-build-debug/CMakeFiles/Q.dir
 C:/Users/asuss/Desktop/problem-solving/leetcode/AWS-Prep/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/asuss/Desktop/problem-solving/leetcode/AWS-Prep/cmake-build-debug/CMakeFiles/rebuild_cache.dir
