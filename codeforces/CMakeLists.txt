@@ -1,0 +1,81 @@
+cmake_minimum_required(VERSION 3.29)
+project(codeforces)
+
+set(CMAKE_CXX_STANDARD 14)
+
+# Contest #2
+add_executable(A_EFE "icpc_mansoura/contest#2/A - EFE.cpp")
+add_executable(B_OddsVsEvens "icpc_mansoura/contest#2/B - Odds Vs Evens.cpp")
+add_executable(C_PetyaAndStrings "icpc_mansoura/contest#2/C - Petya and Strings.cpp")
+add_executable(D_DivisibilityProblem "icpc_mansoura/contest#2/D - Divisibility Problem.cpp")
+add_executable(E_ANiceArray "icpc_mansoura/contest#2/E - A Nice Array.cpp")
+add_executable(F_FakeNews "icpc_mansoura/contest#2/F - Fake News.cpp")
+add_executable(G_RemovePrefix "icpc_mansoura/contest#2/G - Remove Prefix.cpp")
+
+# Contest #3
+add_executable(A_WhoIsFaster "icpc_mansoura/contest#3/A-Who is faster.cpp")
+add_executable(B_KonafaBelkeshta "icpc_mansoura/contest#3/B - Konafa belkeshta in ICPC cup.cpp")
+add_executable(C_EasyStringTask "icpc_mansoura/contest#3/C - Easy String Task.cpp")
+add_executable(D_OddsVsEvens "icpc_mansoura/contest#3/D - Odds Vs Evens.cpp")
+add_executable(E_FarghaliAndArray "icpc_mansoura/contest#3/E -  Farghali and the array.cpp")
+add_executable(F_MrsBooAndShalby "icpc_mansoura/contest#3/F - Mrs Boo and Shalby Sullivan.cpp")
+
+# Session 3
+add_executable(D_3D "icpc_mansoura/session3/D - 3D.cpp")
+add_executable(J_ThreeNumbersSum "icpc_mansoura/session3/J - Three Numbers Sum.cpp")
+add_executable(N_SortRectangles "icpc_mansoura/session3/N - Sort Rectangles.cpp")
+add_executable(S_MinCostString "icpc_mansoura/session3/S - Min Cost String.cpp")
+
+# Session 4
+add_executable(A_MaxBoxREDO "icpc_mansoura/session4/A - Max Box REDO.cpp")
+add_executable(A_MaxBox2 "icpc_mansoura/session4/A- Max Box 2.cpp")
+add_executable(A_MaxBox "icpc_mansoura/session4/A- Max Box.cpp")
+add_executable(B_RestaurantCostumers "icpc_mansoura/session4/B - Restaurant Costumers.cpp")
+add_executable(ChallengeAdhoc1 "icpc_mansoura/session4/Challenge-adhoc-1.cpp")
+add_executable(ChallengeAdhoc2 "icpc_mansoura/session4/Challenge-Adhoc-2.cpp")
+add_executable(ChallengeAdhoc3 "icpc_mansoura/session4/Challenge-Adhoc-3.cpp")
+add_executable(Challenge5_PartialSum "icpc_mansoura/session4/Challenge5-Partial-Sum.cpp")
+add_executable(MinBox "icpc_mansoura/session4/Min Box.cpp")
+add_executable(MaxBox2D "icpc_mansoura/session4/N - Max Box 2D.cpp")
+add_executable(O_SortString "icpc_mansoura/session4/O- Sort String.cpp")
+add_executable(PartialSum "icpc_mansoura/session4/Partial-Sum.cpp")
+
+# Sheet 1
+add_executable(A_HelloWorld "icpc_mansoura/sheet_1/A_ Hello World.cpp")
+add_executable(B_Hmmmm "icpc_mansoura/sheet_1/B_ Hmmmm.cpp")
+add_executable(C_AntonAndDanik "icpc_mansoura/sheet_1/C_ Anton and Danik.cpp")
+add_executable(D_OddOneOut "icpc_mansoura/sheet_1/D - Odd One Out.cpp")
+add_executable(E_KaramellaahLovesYou "icpc_mansoura/sheet_1/E - karamellaah loves you.cpp")
+add_executable(F_APoint "icpc_mansoura/sheet_1/F - a Point.cpp")
+add_executable(G_SoldierAndBananas "icpc_mansoura/sheet_1/G - Soldier and Bananas.cpp")
+add_executable(H_Triago "icpc_mansoura/sheet_1/H - Triago.cpp")
+add_executable(I_NoTimeToDie "icpc_mansoura/sheet_1/I - There is just no time to die.cpp")
+add_executable(Y_MikeAndPalindrome "icpc_mansoura/sheet_1/Y - Mike and palindrome.cpp")
+
+# Sheet 2
+add_executable(A_Kindness "icpc_mansoura/sheet_2/A - Kindness.cpp")
+add_executable(B_Find "icpc_mansoura/sheet_2/B - Find.cpp")
+add_executable(C_Positions "icpc_mansoura/sheet_2/C - Positions.cpp")
+add_executable(F_LowestNumber "icpc_mansoura/sheet_2/F - Lowest Number.cpp")
+add_executable(G_Matrix "icpc_mansoura/sheet_2/G - Matrix.cpp")
+add_executable(H_Count "icpc_mansoura/sheet_2/H - Count.cpp")
+add_executable(I_Mirror "icpc_mansoura/sheet_2/I - Mirror.cpp")
+add_executable(K_Swap "icpc_mansoura/sheet_2/K - Swap.cpp")
+add_executable(L_Colourblindness "icpc_mansoura/sheet_2/L - Colourblindness.cpp")
+add_executable(M_Pangram "icpc_mansoura/sheet_2/M - Pangram.cpp")
+add_executable(N_ICPCBalloons "icpc_mansoura/sheet_2/N - ICPC balloons.cpp")
+add_executable(O_IsItFrequency "icpc_mansoura/sheet_2/O - Is It Frequency.cpp")
+add_executable(P_Fibonacci "icpc_mansoura/sheet_2/P - Fibonacci.cpp")
+add_executable(Q_CAPSLOCK "icpc_mansoura/sheet_2/Q - cAPS lOCK.cpp")
+add_executable(R_WayTooLongWords "icpc_mansoura/sheet_2/R - Way Too Long Words.cpp")
+add_executable(S_SpyDetected "icpc_mansoura/sheet_2/S - Spy Detected!.cpp")
+add_executable(T_BeautifulMatrix "icpc_mansoura/sheet_2/T - Beautiful Matrix.cpp")
+add_executable(U_BeFast2 "icpc_mansoura/sheet_2/U - Be Fast 2.cpp")
+add_executable(W_MostSimilarWords "icpc_mansoura/sheet_2/W - Most Similar Words.cpp")
+add_executable(X_LifeWithoutZeros "icpc_mansoura/sheet_2/X - Life without zeros.cpp")
+add_executable(Y_MikeAndPalindrome2 "icpc_mansoura/sheet_2/Y - Mike and palindrome.cpp")
+add_executable(Z_ElgokersRedEye "icpc_mansoura/sheet_2/Z - Elgokers Red Eye.cpp")
+add_executable(Z_ElgokersRedEye2 "icpc_mansoura/sheet_2/Z - Elgokers Red Eye 2.cpp")
+
+# Additional file
+add_executable(VerifyPassword "Verify Password.cpp")

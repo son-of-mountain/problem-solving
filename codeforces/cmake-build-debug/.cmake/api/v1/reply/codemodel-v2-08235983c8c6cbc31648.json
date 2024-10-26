@@ -1,0 +1,618 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.29"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48,
+						49,
+						50,
+						51,
+						52,
+						53,
+						54,
+						55,
+						56,
+						57,
+						58,
+						59,
+						60,
+						61,
+						62
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "codeforces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48,
+						49,
+						50,
+						51,
+						52,
+						53,
+						54,
+						55,
+						56,
+						57,
+						58,
+						59,
+						60,
+						61,
+						62
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "A_EFE::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-A_EFE-Debug-ab052baabbede2e6bcd9.json",
+					"name" : "A_EFE",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "A_HelloWorld::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-A_HelloWorld-Debug-c0b865cf9e946a1bb674.json",
+					"name" : "A_HelloWorld",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "A_Kindness::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-A_Kindness-Debug-1495b88b22e1f37c97d4.json",
+					"name" : "A_Kindness",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "A_MaxBox::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-A_MaxBox-Debug-ee12d9dab239f56e4e10.json",
+					"name" : "A_MaxBox",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "A_MaxBox2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-A_MaxBox2-Debug-ef7145482c847a947ce3.json",
+					"name" : "A_MaxBox2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "A_MaxBoxREDO::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-A_MaxBoxREDO-Debug-110399c5efb9b1c1b4e7.json",
+					"name" : "A_MaxBoxREDO",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "A_WhoIsFaster::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-A_WhoIsFaster-Debug-0360335c000c301294b8.json",
+					"name" : "A_WhoIsFaster",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "B_Find::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-B_Find-Debug-07bda31a45bfd8c50add.json",
+					"name" : "B_Find",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "B_Hmmmm::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-B_Hmmmm-Debug-730d95fa7d64da762078.json",
+					"name" : "B_Hmmmm",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "B_KonafaBelkeshta::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-B_KonafaBelkeshta-Debug-bc3f4b9dc16533632aa2.json",
+					"name" : "B_KonafaBelkeshta",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "B_OddsVsEvens::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-B_OddsVsEvens-Debug-5a3f89ea2c4896103a6a.json",
+					"name" : "B_OddsVsEvens",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "B_RestaurantCostumers::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-B_RestaurantCostumers-Debug-433fed9cfc5de1afee3a.json",
+					"name" : "B_RestaurantCostumers",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "C_AntonAndDanik::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-C_AntonAndDanik-Debug-8a2121e748b33b8df918.json",
+					"name" : "C_AntonAndDanik",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "C_EasyStringTask::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-C_EasyStringTask-Debug-a4c71f10d08db54edaf4.json",
+					"name" : "C_EasyStringTask",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "C_PetyaAndStrings::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-C_PetyaAndStrings-Debug-19a0ac9e103f386f4857.json",
+					"name" : "C_PetyaAndStrings",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "C_Positions::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-C_Positions-Debug-7440e97cf14b1e6cc3c7.json",
+					"name" : "C_Positions",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Challenge5_PartialSum::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Challenge5_PartialSum-Debug-9a59f266dca755955f51.json",
+					"name" : "Challenge5_PartialSum",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ChallengeAdhoc1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ChallengeAdhoc1-Debug-9e7b07dadf019fa67129.json",
+					"name" : "ChallengeAdhoc1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ChallengeAdhoc2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ChallengeAdhoc2-Debug-49cda82353ce7fd2113e.json",
+					"name" : "ChallengeAdhoc2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ChallengeAdhoc3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ChallengeAdhoc3-Debug-3b1d90a4ec2dd2309cf6.json",
+					"name" : "ChallengeAdhoc3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "D_3D::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-D_3D-Debug-ad7cd21e2638d9af17b7.json",
+					"name" : "D_3D",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "D_DivisibilityProblem::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-D_DivisibilityProblem-Debug-60cddcdabbdc9dfc409d.json",
+					"name" : "D_DivisibilityProblem",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "D_OddOneOut::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-D_OddOneOut-Debug-1a6943eb64d2efe3c114.json",
+					"name" : "D_OddOneOut",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "D_OddsVsEvens::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-D_OddsVsEvens-Debug-bbec421cc45e408bc83b.json",
+					"name" : "D_OddsVsEvens",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "E_ANiceArray::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-E_ANiceArray-Debug-5dd891ceb36b5cb846b0.json",
+					"name" : "E_ANiceArray",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "E_FarghaliAndArray::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-E_FarghaliAndArray-Debug-5abc0a4a590449c8f5af.json",
+					"name" : "E_FarghaliAndArray",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "E_KaramellaahLovesYou::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-E_KaramellaahLovesYou-Debug-35fec0383305c4100ab1.json",
+					"name" : "E_KaramellaahLovesYou",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "F_APoint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-F_APoint-Debug-5c7cd397fc449bebc792.json",
+					"name" : "F_APoint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "F_FakeNews::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-F_FakeNews-Debug-3079a520461f147d9135.json",
+					"name" : "F_FakeNews",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "F_LowestNumber::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-F_LowestNumber-Debug-afd4bf9f03267eaa02e9.json",
+					"name" : "F_LowestNumber",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "F_MrsBooAndShalby::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-F_MrsBooAndShalby-Debug-359901f19fd90dacc85f.json",
+					"name" : "F_MrsBooAndShalby",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "G_Matrix::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-G_Matrix-Debug-d05a9b1b086e66a3d6f2.json",
+					"name" : "G_Matrix",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "G_RemovePrefix::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-G_RemovePrefix-Debug-cd55022a8083b5298c5d.json",
+					"name" : "G_RemovePrefix",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "G_SoldierAndBananas::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-G_SoldierAndBananas-Debug-092d110fd417aeb5da63.json",
+					"name" : "G_SoldierAndBananas",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "H_Count::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-H_Count-Debug-844970cf8ef4600b078e.json",
+					"name" : "H_Count",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "H_Triago::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-H_Triago-Debug-1f946eea9ba7c0b0a29e.json",
+					"name" : "H_Triago",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "I_Mirror::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-I_Mirror-Debug-a710c285bde506feaf9a.json",
+					"name" : "I_Mirror",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "I_NoTimeToDie::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-I_NoTimeToDie-Debug-ab7d1a447459f6dd8c67.json",
+					"name" : "I_NoTimeToDie",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "J_ThreeNumbersSum::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-J_ThreeNumbersSum-Debug-b39cd64edc53fd8bb66e.json",
+					"name" : "J_ThreeNumbersSum",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "K_Swap::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-K_Swap-Debug-eb7096d31c374b9c94f0.json",
+					"name" : "K_Swap",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "L_Colourblindness::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-L_Colourblindness-Debug-04f79bc8aecda7fff95c.json",
+					"name" : "L_Colourblindness",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "M_Pangram::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-M_Pangram-Debug-d08622757ce52bcf02a6.json",
+					"name" : "M_Pangram",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "MaxBox2D::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MaxBox2D-Debug-53380d21447b50881cad.json",
+					"name" : "MaxBox2D",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "MinBox::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MinBox-Debug-1209df038de32e96a54a.json",
+					"name" : "MinBox",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "N_ICPCBalloons::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-N_ICPCBalloons-Debug-0e9f8e794f2df5d63c7c.json",
+					"name" : "N_ICPCBalloons",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "N_SortRectangles::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-N_SortRectangles-Debug-88dd78d12d36621b8cac.json",
+					"name" : "N_SortRectangles",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "O_IsItFrequency::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-O_IsItFrequency-Debug-37b2606ec28fb4d9c1f0.json",
+					"name" : "O_IsItFrequency",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "O_SortString::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-O_SortString-Debug-f6d8238a8386fa1edd72.json",
+					"name" : "O_SortString",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "P_Fibonacci::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-P_Fibonacci-Debug-7823ef19c26a9e37ed98.json",
+					"name" : "P_Fibonacci",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "PartialSum::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-PartialSum-Debug-8524905039de1e6fe030.json",
+					"name" : "PartialSum",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Q_CAPSLOCK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Q_CAPSLOCK-Debug-78355899c0269c18629e.json",
+					"name" : "Q_CAPSLOCK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "R_WayTooLongWords::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-R_WayTooLongWords-Debug-b461464a51ac63575f9b.json",
+					"name" : "R_WayTooLongWords",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "S_MinCostString::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-S_MinCostString-Debug-a3ca022d49ade8e64a4d.json",
+					"name" : "S_MinCostString",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "S_SpyDetected::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-S_SpyDetected-Debug-ba8ad545109de2f9ee68.json",
+					"name" : "S_SpyDetected",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "T_BeautifulMatrix::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-T_BeautifulMatrix-Debug-87c698f6ca038468164e.json",
+					"name" : "T_BeautifulMatrix",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "U_BeFast2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-U_BeFast2-Debug-75f54cea2c45f9de4e58.json",
+					"name" : "U_BeFast2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "VerifyPassword::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-VerifyPassword-Debug-4f19fea5b1fe852a1a1f.json",
+					"name" : "VerifyPassword",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "W_MostSimilarWords::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-W_MostSimilarWords-Debug-c8009c2b5d3741e47d3e.json",
+					"name" : "W_MostSimilarWords",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "X_LifeWithoutZeros::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-X_LifeWithoutZeros-Debug-c8eaa437e7f7b09930ac.json",
+					"name" : "X_LifeWithoutZeros",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Y_MikeAndPalindrome::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Y_MikeAndPalindrome-Debug-acec83907233b51dd8f4.json",
+					"name" : "Y_MikeAndPalindrome",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Y_MikeAndPalindrome2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Y_MikeAndPalindrome2-Debug-d318d8298a5392c607db.json",
+					"name" : "Y_MikeAndPalindrome2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Z_ElgokersRedEye::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Z_ElgokersRedEye-Debug-5f9a689e45d7ff593710.json",
+					"name" : "Z_ElgokersRedEye",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Z_ElgokersRedEye2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Z_ElgokersRedEye2-Debug-af022cd6135fe50b9917.json",
+					"name" : "Z_ElgokersRedEye2",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/asuss/Desktop/problem-solving/codeforces/cmake-build-debug",
+		"source" : "C:/Users/asuss/Desktop/problem-solving/codeforces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
