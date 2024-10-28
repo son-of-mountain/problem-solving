@@ -11,7 +11,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/asuss/Desktop/problem-solving/leetcode/AWS-Prep/cmake-build-debug"
+			"value" : "D:/CERTIFICATES/problem-solving/leetcode/AWS-Prep/cmake-build-debug"
 		},
 		{
 			"name" : "AWS_Prep_IS_TOP_LEVEL",
@@ -35,7 +35,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/asuss/Desktop/problem-solving/leetcode/AWS-Prep"
+			"value" : "D:/CERTIFICATES/problem-solving/leetcode/AWS-Prep"
 		},
 		{
 			"name" : "CMAKE_ADDR2LINE",
@@ -91,7 +91,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/asuss/Desktop/problem-solving/leetcode/AWS-Prep/cmake-build-debug"
+			"value" : "d:/CERTIFICATES/problem-solving/leetcode/AWS-Prep/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -611,7 +611,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/asuss/Desktop/problem-solving/leetcode/AWS-Prep/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "D:/CERTIFICATES/problem-solving/leetcode/AWS-Prep/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -683,7 +683,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/asuss/Desktop/problem-solving/leetcode/AWS-Prep"
+			"value" : "D:/CERTIFICATES/problem-solving/leetcode/AWS-Prep"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",

@@ -1,8 +1,9 @@
-C:/Users/asuss/Desktop/problem-solving/leetcode/AWS-Prep/cmake-build-debug/CMakeFiles/B.dir
-C:/Users/asuss/Desktop/problem-solving/leetcode/AWS-Prep/cmake-build-debug/CMakeFiles/E.dir
-C:/Users/asuss/Desktop/problem-solving/leetcode/AWS-Prep/cmake-build-debug/CMakeFiles/Day1_minmax.dir
-C:/Users/asuss/Desktop/problem-solving/leetcode/AWS-Prep/cmake-build-debug/CMakeFiles/Day1_plusminux.dir
-C:/Users/asuss/Desktop/problem-solving/leetcode/AWS-Prep/cmake-build-debug/CMakeFiles/L.dir
-C:/Users/asuss/Desktop/problem-solving/leetcode/AWS-Prep/cmake-build-debug/CMakeFiles/Q.dir
-C:/Users/asuss/Desktop/problem-solving/leetcode/AWS-Prep/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/asuss/Desktop/problem-solving/leetcode/AWS-Prep/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/CERTIFICATES/problem-solving/leetcode/AWS-Prep/cmake-build-debug/CMakeFiles/B.dir
+D:/CERTIFICATES/problem-solving/leetcode/AWS-Prep/cmake-build-debug/CMakeFiles/E.dir
+D:/CERTIFICATES/problem-solving/leetcode/AWS-Prep/cmake-build-debug/CMakeFiles/Day1_minmax.dir
+D:/CERTIFICATES/problem-solving/leetcode/AWS-Prep/cmake-build-debug/CMakeFiles/Day1_plusminux.dir
+D:/CERTIFICATES/problem-solving/leetcode/AWS-Prep/cmake-build-debug/CMakeFiles/L.dir
+D:/CERTIFICATES/problem-solving/leetcode/AWS-Prep/cmake-build-debug/CMakeFiles/Q.dir
+D:/CERTIFICATES/problem-solving/leetcode/AWS-Prep/cmake-build-debug/CMakeFiles/AppsA.dir
+D:/CERTIFICATES/problem-solving/leetcode/AWS-Prep/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/CERTIFICATES/problem-solving/leetcode/AWS-Prep/cmake-build-debug/CMakeFiles/rebuild_cache.dir
