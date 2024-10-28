@@ -271,6 +271,39 @@ build AppsA.exe: CXX_EXECUTABLE_LINKER__AppsA_Debug CMakeFiles/AppsA.dir/AppsClu
   TARGET_IMPLIB = libAppsA.dll.a
   TARGET_PDB = AppsA.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target AppsB
+
+
+#############################################
+# Order-only phony target for AppsB
+
+build cmake_object_order_depends_target_AppsB: phony || .
+
+build CMakeFiles/AppsB.dir/AppsClub_-_B.cpp.obj: CXX_COMPILER__AppsB_unscanned_Debug D$:/CERTIFICATES/problem-solving/leetcode/AWS-Prep/AppsClub$ -$ B.cpp || cmake_object_order_depends_target_AppsB
+  DEP_FILE = CMakeFiles\AppsB.dir\AppsClub_-_B.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\AppsB.dir
+  OBJECT_FILE_DIR = CMakeFiles\AppsB.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target AppsB
+
+
+#############################################
+# Link the executable AppsB.exe
+
+build AppsB.exe: CXX_EXECUTABLE_LINKER__AppsB_Debug CMakeFiles/AppsB.dir/AppsClub_-_B.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\AppsB.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = AppsB.exe
+  TARGET_IMPLIB = libAppsB.dll.a
+  TARGET_PDB = AppsB.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -299,6 +332,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build AppsA: phony AppsA.exe
 
+build AppsB: phony AppsB.exe
+
 build B: phony B.exe
 
 build Day1_minmax: phony Day1_minmax.exe
@@ -319,7 +354,7 @@ build Q: phony Q.exe
 #############################################
 # Folder: D:/CERTIFICATES/problem-solving/leetcode/AWS-Prep/cmake-build-debug
 
-build all: phony B.exe E.exe Day1_minmax.exe Day1_plusminux.exe L.exe Q.exe AppsA.exe
+build all: phony B.exe E.exe Day1_minmax.exe Day1_plusminux.exe L.exe Q.exe AppsA.exe AppsB.exe
 
 # =============================================================================
 # Built-in targets
