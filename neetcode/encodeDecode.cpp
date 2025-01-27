@@ -1,0 +1,6 @@
+Class Solution{
+    public:
+        
+
+
+}
